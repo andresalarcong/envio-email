@@ -25,7 +25,7 @@ Recuerda usar la propiedad F.I.R.S.T en las pruebad.
 
 Para ejecutar el script instala gradle en el sistema operativo y agrega al path de las variables del sistema operativo
 
-1. gradle wrapper - Si el proyecto no tiene la carpeta /gradle/wrapper o si deseas generarlo en tu maquina (opcion recomendada)
+1. gradle wrapper - Si el proyecto no tiene la carpeta /gradle/wrapper o si deseas generarlo en tu maquina (opcion recomendada) Para ello borra la carpeta gradle, gradlew y gradle.bat y ejecuta lo siguiente: gradle wrapper (Si se presenta errores de gradle configura la versión 4)
 2. gradlew clean test aggregate '-Dwebdriver.driver=chrome' (o el navegador que quieras, recuerda que requieres agregar al path el driver)
 
 Recuerda crearte tu correo remitente y destinatario en gmail.
